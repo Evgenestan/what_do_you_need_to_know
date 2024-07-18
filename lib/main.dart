@@ -57,7 +57,6 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   final _counterChannel = const MethodChannel('counter_channel');
-  late final AppLifecycleListener _lifeCycleListener;
   late Color _backgroundColor;
   int _counter = 0;
   bool _isLoading = false;
@@ -101,9 +100,6 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   void initState() {
     super.initState();
-    _lifeCycleListener = AppLifecycleListener(
-      onResume: () => _loadData(),
-    );
     _loadData();
   }
 
@@ -112,12 +108,6 @@ class _MyHomePageState extends State<MyHomePage> {
     super.didChangeDependencies();
     _backgroundColor = Theme.of(context).colorScheme.inversePrimary;
     setColor();
-  }
-
-  @override
-  void dispose() {
-    _lifeCycleListener.dispose();
-    super.dispose();
   }
 
   @override

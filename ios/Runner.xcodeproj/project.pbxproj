@@ -15,6 +15,7 @@
 		97C146FC1CF9000F007C117D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FA1CF9000F007C117D /* Main.storyboard */; };
 		97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FD1CF9000F007C117D /* Assets.xcassets */; };
 		97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */; };
+		D3DD680EF05470B143B5D22C /* Pods_Runner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7387B309E9F2D6E9328B3059 /* Pods_Runner.framework */; };
 		D91F83A02C4418DE00C63450 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D91F839F2C4418DE00C63450 /* WidgetKit.framework */; };
 		D91F83A22C4418DE00C63450 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D91F83A12C4418DE00C63450 /* SwiftUI.framework */; };
 		D91F83A52C4418DE00C63450 /* widgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91F83A42C4418DE00C63450 /* widgetBundle.swift */; };
@@ -118,6 +119,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3DD680EF05470B143B5D22C /* Pods_Runner.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,7 +312,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1510;
-				LastUpgradeCheck = 1510;
+				LastUpgradeCheck = 1300;
 				ORGANIZATIONNAME = "";
 				TargetAttributes = {
 					331C8080294A63A400263BE5 = {
