@@ -15,7 +15,6 @@
 		97C146FC1CF9000F007C117D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FA1CF9000F007C117D /* Main.storyboard */; };
 		97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FD1CF9000F007C117D /* Assets.xcassets */; };
 		97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */; };
-		D3DD680EF05470B143B5D22C /* Pods_Runner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7387B309E9F2D6E9328B3059 /* Pods_Runner.framework */; };
 		D91F83A02C4418DE00C63450 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D91F839F2C4418DE00C63450 /* WidgetKit.framework */; };
 		D91F83A22C4418DE00C63450 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D91F83A12C4418DE00C63450 /* SwiftUI.framework */; };
 		D91F83A52C4418DE00C63450 /* widgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91F83A42C4418DE00C63450 /* widgetBundle.swift */; };
@@ -28,7 +27,7 @@
 		D91F83BD2C4476A300C63450 /* DataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91F83BA2C44750E00C63450 /* DataHelper.swift */; };
 		D91F83BF2C44842800C63450 /* LiveActivityHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91F83BE2C44842800C63450 /* LiveActivityHelper.swift */; };
 		D91F83C52C453B1D00C63450 /* WidgetHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91F83C42C453B1D00C63450 /* WidgetHelper.swift */; };
-		D9DAF5002C48305100C3D07D /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = D9DAF4FF2C48305100C3D07D /* InfoPlist.xcstrings */; };
+		D9DAF5062C49888800C3D07D /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = D9DAF5052C49888800C3D07D /* InfoPlist.xcstrings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,7 +108,7 @@
 		D91F83BA2C44750E00C63450 /* DataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataHelper.swift; sourceTree = "<group>"; };
 		D91F83BE2C44842800C63450 /* LiveActivityHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveActivityHelper.swift; sourceTree = "<group>"; };
 		D91F83C42C453B1D00C63450 /* WidgetHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetHelper.swift; sourceTree = "<group>"; };
-		D9DAF4FF2C48305100C3D07D /* InfoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
+		D9DAF5052C49888800C3D07D /* InfoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
 		DBDE4AC9E24FD27D43CE12D6 /* Pods-Runner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.debug.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.debug.xcconfig"; sourceTree = "<group>"; };
 		EEFFC02D0520A1FA67D248C5 /* Pods_RunnerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RunnerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -119,7 +118,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3DD680EF05470B143B5D22C /* Pods_Runner.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,7 +211,7 @@
 				74858FAD1ED2DC5600515810 /* Runner-Bridging-Header.h */,
 				D91F83BE2C44842800C63450 /* LiveActivityHelper.swift */,
 				D91F83C42C453B1D00C63450 /* WidgetHelper.swift */,
-				D9DAF4FF2C48305100C3D07D /* InfoPlist.xcstrings */,
+				D9DAF5052C49888800C3D07D /* InfoPlist.xcstrings */,
 			);
 			path = Runner;
 			sourceTree = "<group>";
@@ -362,7 +360,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */,
-				D9DAF5002C48305100C3D07D /* InfoPlist.xcstrings in Resources */,
+				D9DAF5062C49888800C3D07D /* InfoPlist.xcstrings in Resources */,
 				3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */,
 				97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */,
 				97C146FC1CF9000F007C117D /* Main.storyboard in Resources */,

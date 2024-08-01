@@ -28,7 +28,7 @@ import ActivityKit
           break
       }
       
-//    LiveActivityHelper.create()
+    LiveActivityHelper.create()
     
     widgetHelper = WidgetHelper(controller: window?.rootViewController as! FlutterViewController)
       

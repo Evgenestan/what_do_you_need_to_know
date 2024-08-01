@@ -9,7 +9,7 @@ import Foundation
 import SwiftUI
 
 class DataHelper {
-    static private let defaults: UserDefaults? = UserDefaults.standard
+    static private let defaults: UserDefaults? = UserDefaults(suiteName: "group.what.are.u")
     static private let flutterCountKey = "flutter_count"
     
     static func getColor() -> Color {

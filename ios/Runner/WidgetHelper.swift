@@ -23,7 +23,7 @@ class WidgetHelper {
                 case "set_counter":
                     if let count = call.arguments as? Int {
                         DataHelper.setCount(count: count)
-//                        LiveActivityHelper.update(count: count)
+                        LiveActivityHelper.update(count: count)
                         WidgetCenter.shared.reloadTimelines(ofKind: "counter")
                     }
                     result(nil)
